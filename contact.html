@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="navbar.css">
     <title>Contact</title>
 </head>
 <body>
-    
+
     <div class="container">
 
     </div>
@@ -29,5 +30,40 @@
         </ul>
       </nav>
     
+      <div class="col-md-6 offset-md-3">
+        <span class="anchor" id="formContact"></span>
+        <hr class="my-5">
+      <div class="card card-outline-secondary">
+        <div class="card-header">
+            <h3 class="mb-0">Contact</h3>
+        </div>
+        <div class="card-body">
+            <form class="form" role="form" autocomplete="off">
+                <fieldset>
+                    <label for="name2" class="mb-0">Name</label>
+                    <div class="row mb-1">
+                        <div class="col-lg-12">
+                            <input type="text" name="name2" id="name2" class="form-control" placeholder="Name" required="">
+                        </div>
+                    </div>
+                    <label for="email2" class="mb-0">Email</label>
+                    <div class="row mb-1">
+                        <div class="col-lg-12">
+                            <input type="text" name="email2" id="email2" class="form-control" placeholder="example@hotmail.com" required="">
+                        </div>
+                    </div>
+                    <label for="message2" class="mb-0">Message</label>
+                    <div class="row mb-1">
+                        <div class="col-lg-12">
+                            <textarea rows="6" name="message2" id="message2" class="form-control" placeholder="Message" required=""></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-secondary btn-lg float-right">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
