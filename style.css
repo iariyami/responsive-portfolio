@@ -1,0 +1,36 @@
+body {
+    /* Box-model */
+    padding: 0;
+  
+    /* Positioning */
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    /* Typography */
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+}
+#main-bio{
+    background-color: gray;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.container {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 0 auto;
+}
+
+#bio-image {
+    float: left;
+    /* Box-model */
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+}
