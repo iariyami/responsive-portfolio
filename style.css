@@ -11,6 +11,8 @@ body {
     line-height: 150%;
     color: #333;
 }
+
+    /* Background and border for the About Me section  */
 #main-bio{
     background-color: gray;
     width: 600px;
@@ -27,9 +29,12 @@ body {
     margin: 0 auto;
 }
 
+    /* Aligns the photo left */
 #bio-image {
     float: left;
-    /* Box-model */
+
+
+    /* Size of box for image */
     width: 250px;
     height: 200px;
     margin-right: 20px;
